@@ -1,5 +1,6 @@
 .btn-all{
     display: inline-block;
+    margin: 10px 0;
 }
 .btn-all .btn-now {
   color: white;

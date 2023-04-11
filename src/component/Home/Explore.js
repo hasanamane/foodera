@@ -20,23 +20,23 @@ function Explore() {
       <div className="Explore-card">
         <div  className="card-section">
             <img src={card1} title="Card1"/>
-            <h2>Rainbow Vegetable Sandwich</h2>
-            <p>Time: 15 - 20 Minutes | Serves: 1</p>
+            <h2 className="card-fo">Rainbow Vegetable Sandwich</h2>
+            <p className="card-fo">Time: 15 - 20 Minutes | Serves: 1</p>
             <h1 className="parse-new">$10.50<del className="parse-old">$11.70</del></h1>
             <Button  data="Order Now"/>
         </div>
       
         <div className="card-section">
             <img src={card2} title="Card1"/>
-            <h2>Rainbow Vegetable Sandwich</h2>
-            <p>Time: 15 - 20 Minutes | Serves: 1</p>
+            <h2 className="card-fo">Rainbow Vegetable Sandwich</h2>
+            <p className="card-fo">Time: 15 - 20 Minutes | Serves: 1</p>
             <h1 className="parse-new">$10.50<del className="parse-old">$11.70</del></h1>
             <Button  data="Order Now"/>
         </div>
         <div className="card-section">
             <img src={card3} title="Card1"/>
-            <h2>Rainbow Vegetable Sandwich</h2>
-            <p>Time: 15 - 20 Minutes | Serves: 1</p>
+            <h2 className="card-fo">Rainbow Vegetable Sandwich</h2>
+            <p className="card-fo">Time: 15 - 20 Minutes | Serves: 1</p>
             <h1 className="parse-new">$10.50<del className="parse-old">$11.70</del></h1>
             <Button  data="Order Now"/>
         </div>
