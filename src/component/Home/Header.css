@@ -32,20 +32,9 @@ header button{
    
     font-weight: 600;
 }
-header .btn-now{
- color: white;
- background-color: #6f1e31;
 
-}
 
-header .btn-now:hover{
-background-color: #fff;
-color: #6f1e31;
-transition: .5s ease-in-out;
-/* box-shadow: 1px 1px 1px 1px #d08496 ; */
-border: 2px solid #6f1e31;
-transform: scale(1.1);
-}
+
 header .btn-more{
     color: #000;
 }

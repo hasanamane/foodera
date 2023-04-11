@@ -1,5 +1,6 @@
 import React from "react";
 import './Header.css';
+import Button from './Button';
 const Header = () => {
   return (
     <header>
@@ -10,7 +11,7 @@ const Header = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
             purus a odio finibus bibendum amet leo.
           </p>
-          <button className="btn-now">Order Now </button>
+          <Button data="Order Now" />
           <button className="btn-more">Learn More <span> &gt; </span></button>
         </div>
         <div className="col-md-6"></div>
