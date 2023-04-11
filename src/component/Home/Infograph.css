@@ -1,0 +1,49 @@
+.Info {
+  background-color: #6f1e31;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+.Info .body-Info {
+  cursor: pointer;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+@media (max-width: 600px) {
+  .Info {
+    background-color: #6f1e31;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+  }
+  .Info .body-Info {
+    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+  }
+  .Info .body-Info:hover {
+    color: #ffffff;
+    border: 2px solid #c9c9c9;
+    border-radius: 10px;
+    cursor: pointer;
+    max-width: 100%;
+    padding-top: 10px;
+    box-shadow: 2px 2px 2px 2px #db738b;
+  }
+}
+.Info .body-Info:hover {
+  color: #ffffff;
+  border: 2px solid #c9c9c9;
+  border-radius: 10px;
+  cursor: pointer;
+
+  max-width: 100%;
+  padding-top: 10px;
+  box-shadow: 2px 2px 2px 2px #db738b;
+}

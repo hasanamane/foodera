@@ -1,0 +1,61 @@
+header{
+    background: url("../../assets/3.jpg") center no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    height: 680px;
+    overflow: hidden;
+    margin-top: -80px;
+
+
+}
+header h2 {
+    display: flex;
+    color: #6f1e31;
+    font-size: 50px;
+    line-height: 60px;
+   margin-top: 220px;
+   max-width: 70%;
+
+    
+}
+header p{
+    max-width: 65%;
+}
+header button{
+    padding: 10px 40px 10px 40px;
+    font-size: 14px;
+    margin-right: 16px;
+    border: none;
+    text-align: center;
+   
+    font-weight: 600;
+}
+header .btn-now{
+ color: white;
+ background-color: #6f1e31;
+
+}
+
+header .btn-now:hover{
+background-color: #fff;
+color: #6f1e31;
+transition: .5s ease-in-out;
+/* box-shadow: 1px 1px 1px 1px #d08496 ; */
+border: 2px solid #6f1e31;
+transform: scale(1.1);
+}
+header .btn-more{
+    color: #000;
+}
+header .btn-more:hover{
+    color: #6f1e31;
+    border: 2px solid #6f1e31;
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+}
+header span{
+    font-size: large;
+    padding-left: 8px ;
+}
