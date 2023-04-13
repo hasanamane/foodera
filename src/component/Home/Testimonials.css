@@ -1,0 +1,58 @@
+.slider {
+   background-color: #a82d49;
+   border: 2px solid #a82d49;
+   width: 100%;
+   max-width: 100%;
+   text-align: center;
+   padding: 25px 0;
+}
+.slider img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 150px;
+}
+.slider .carousel{
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 40px 0;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    padding: 25px 0;
+}
+.slider .carousel h2{
+    color: wheat;
+}
+.slider .carousel-caption p{
+ color: #212212;
+ font-size: 17px;
+ line-height: 30px;
+ margin: auto;
+}
+.slider .carousel-caption span{
+    color: #692a38;
+    display: block;
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.slider   .carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+   
+
+}
+.slider   .carousel-indicators button{
+    width: 50px;
+    background-color: #692a38;
+
+}

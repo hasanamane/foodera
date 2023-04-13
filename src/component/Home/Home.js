@@ -4,6 +4,7 @@ import Infograph from "./Infograph";
 import PartCard from "./PartCard";
 import Part2 from './Part2'
 import Explore from "./Explore";
+import Testimonials from "./Testimonials"
 const Home = () => {
   return <>
  
@@ -12,6 +13,7 @@ const Home = () => {
     <PartCard />
     <Part2 />
     <Explore />
+    <Testimonials/>
   </>;
 };
 export default Home;
